@@ -1,12 +1,12 @@
 const {
-    customerAndAge,
-    getEntries,
-    courses,
-    getInfo,
-    getStudents,
-} = require("./Challenge08");
+  customerAndAge,
+  getEntries,
+  courses,
+  getInfo,
+  getStudents,
+} = require("../code-challenges/challenges-08.js");
 
-describe.skip("Challenge08-01", () => {
+describe("Challenge08-01", () => {
     test("Customer-and-average", () => {
         let names = {
             "Romio Joliat": 35,
@@ -19,7 +19,7 @@ describe.skip("Challenge08-01", () => {
     });
 });
 
-describe.skip("Challenge08-02", () => {
+describe("Challenge08-02", () => {
     test("Get-recipe-key", () => {
         let recipeInfo = {
             name: "pizza",
@@ -33,7 +33,7 @@ describe.skip("Challenge08-02", () => {
     });
 });
 
-describe.skip("Challenge08-03", () => {
+describe("Challenge08-03", () => {
     test("Get-Course-Name", () => {
 
         expect(getInfo(courses).coursesName[0]).toEqual("Java");
@@ -43,7 +43,7 @@ describe.skip("Challenge08-03", () => {
     });
 });
 
-describe.skip("Challenge08-04", () => {
+describe("Challenge08-04", () => {
     test("Get-Student-Names-And-Courses", () => {
         let test1 = ['Kalé', 'Alisha','Alphonso', 'Briana'];
         let res1 = [

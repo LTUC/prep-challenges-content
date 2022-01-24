@@ -1,6 +1,11 @@
 'use strict';
 
-const { objLat, cvFormatter, applicationsStatics, classesAvg } = require('./Challenge07');
+const {
+  objLat,
+  cvFormatter,
+  applicationsStatics,
+  classesAvg,
+} = require("../code-challenges/challenges-07.js");
 
 const first_Cv_Sample = [
     {
@@ -176,7 +181,7 @@ const data = {
     ],
 };
 
-describe.skip('Challenge07', () => {
+describe('Challenge07', () => {
     test('Object-Laterals', () => {
         var first_Person = {
             firstName: 'John',
@@ -205,7 +210,7 @@ describe.skip('Challenge07', () => {
 
 })
 
-describe.skip('Challenge07', () => {
+describe('Challenge07', () => {
     test('CV-Formatter', () => {
         let received = [
             {
@@ -251,7 +256,7 @@ describe.skip('Challenge07', () => {
 
 })
 
-describe.skip('Challenge07', () => {
+describe('Challenge07', () => {
 
     test('cv_filter', () => {
         let received = {
@@ -277,7 +282,7 @@ describe.skip('Challenge07', () => {
 
 })
 
-describe.skip('Challenge07', () => {
+describe('Challenge07', () => {
     test('classes_Avg', () => {
         let received = {
             SchoolName: "Al Farouk",
