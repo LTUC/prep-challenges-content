@@ -5,7 +5,7 @@ const {
   cleanData,
 } = require("../code-challenges/challenges-13.js");
 
-describe.skip('Challenge13-01', () => {
+describe('Challenge13-01', () => {
     test('object_Counter', () => {
         var voters = [
             {
@@ -45,7 +45,7 @@ describe.skip('Challenge13-01', () => {
     })
 });
 
-describe.skip('Challenge13-02', () => {
+describe('Challenge13-02', () => {
     test('string_Reverse', () => {
 
         let test1 = 'you shall not pass.';
@@ -60,7 +60,7 @@ describe.skip('Challenge13-02', () => {
     })
 })
 
-describe.skip('Challenge13-03', () => {
+describe('Challenge13-03', () => {
     test('Get-statistics', () => {
 
         let voters = [
@@ -122,7 +122,7 @@ describe.skip('Challenge13-03', () => {
     })
 })
 
-describe.skip('Challenge13-04', () => {
+describe('Challenge13-04', () => {
     test('Get-Clean-Data', () => {
         let data = {
             name: {
