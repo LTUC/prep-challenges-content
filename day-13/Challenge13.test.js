@@ -1,161 +1,106 @@
-const { objectCounter, stringReverse, statistics, cleanData } = require('./Challenge13');
+'use strict';
 
-describe('Challenge13-01', () => {
-    test('object_Counter', () => {
-        var voters = [
-            {
-                voter_Name: "Adam Scott",
-                votes_To: "James",
-            },
-            {
-                voter_Name: "Abril Blake",
-                votes_To: "Jade",
-            },
-            {
-                voter_Name: "Ruby Andrews",
-                votes_To: "Jade",
-            },
-            {
-                voter_Name: "Junior Maxwell",
-                votes_To: "Bailey",
-            },
-            {
-                voter_Name: "Junior Maxwell",
-                votes_To: "Bailey",
-            }
-        ];
-        var voters2 = [
-            {
-                voter_Name: "Adam Scott",
-                votes_To: "James",
-            },
-            {
-                voter_Name: "Junior Maxwell",
-                votes_To: "Bailey",
-            }
-        ];
+// Important Note: 
+// Kindly use reduce instead of for in all of your solutions
 
-        expect(objectCounter(voters)).toStrictEqual(5);
-        expect(objectCounter(voters2)).toStrictEqual(2);
-    })
-});
+// Resource:
+// Reduce: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
 
-describe('Challenge13-02', () => {
-    test('string_Reverse', () => {
+// 1) ---------------------
+// 
+//  Given an array of objects, count the objects by using reduce method.
 
-        let test1 = 'you shall not pass.';
-        let res1 = 'pass not shall you.';
+//  EX:
+// var voters = [
+//     {
+//         voter_Name: "Adam Scott",
+//         votes_To: "James",
+//     },
+//     {
+//         voter_Name: "Abril Blake",
+//         votes_To: "Jade",
+//     },
+//     {
+//         voter_Name: "Ruby Andrews",
+//         votes_To: "Jade",
+//     },
+//     {
+//         voter_Name: "Junior Maxwell",
+//         votes_To: "Bailey",
+//     },
+//     {
+//         voter_Name: "Junior Maxwell",
+//         votes_To: "Bailey",
+//     }
+// ]
+//
 
-        let test2 = 'I am your father';
-        let res2 = 'father your am I';
+// ------------------------
 
-        expect(stringReverse(test1)).toStrictEqual(res1);
-        expect(stringReverse(test2)).toStrictEqual(res2);
+const objectCounter = (obj) => {
+    // write your code here
 
-    })
-})
+}
 
-describe('Challenge13-03', () => {
-    test('Get-statistics', () => {
+// 2) ---------------------
+// 
+// Given a string input as an argument reverse it using reduce method.
+//
+//  EX:
+// 'you shall not pass' ==> 'pass not shall you'
+//
+// Hint:
+// since you need to reverse words, you may get some use of the methods
+// you learnt before to split the string to words
+//
+// ------------------------
 
-        let voters = [
-            {
-                voter_Name: "Adam Scott",
-                votes_To: "James",
-            },
-            {
-                voter_Name: "Abril Blake",
-                votes_To: "Jade",
-            },
-            {
-                voter_Name: "Ruby Andrews",
-                votes_To: "Jade",
-            },
-            {
-                voter_Name: "Junior Maxwell",
-                votes_To: "Bailey ",
-            },
-            {
-                voter_Name: "Junior Maxwell",
-                votes_To: "Bailey",
-            }
-        ];
+const stringReverse = (str) => {
+    // write your code here
 
-        let res = {
-            James: 1,
-            Jade: 2,
-            Bailey: 2
-        };
+}
 
-        let voters2 = [
-            {
-                voter_Name: "Adam Scott",
-                votes_To: "Chad",
-            },
-            {
-                voter_Name: "Abril Blake",
-                votes_To: "Jade",
-            },
-            {
-                voter_Name: "Junior Maxwell",
-                votes_To: "Chad ",
-            },
-            {
-                voter_Name: "Junior Maxwell",
-                votes_To: "Jade",
-            }
-        ];
+// 3) ---------------------
+// 
+// Using the same array of object from the first question, create new object that contain the candidates name as keys (voting for),
+// and how many times they got voted to as values using the reduce method.
+//
+// Input:
+// let voters = [
+//     {
+//         voter_Name: "Adam Scott",
+//         votes_To: "James",
+//     },
+//     {
+//         voter_Name: "Abril Blake",
+//         votes_To: "Jade",
+//     },
+//     {
+//         voter_Name: "Ruby Andrews",
+//         votes_To: "Jade",
+//     },
+//     {
+//         voter_Name: "Junior Maxwell",
+//         votes_To: "Bailey",
+//     },
+//     {
+//         voter_Name: "Junior Maxwell",
+//         votes_To: "Bailey",
+//     }
+// ];
+//
+// Output:
+// let res = {
+//     James: 1,
+//     Jade: 2,
+//     Bailey: 2
+// };
+//
+// ------------------------
 
-        let res2 = {
-            Chad: 2,
-            Jade: 2,
-        };
-
-        expect(statistics(voters)).toEqual(res);
-        expect(statistics(voters2)).toEqual(res2);
-
-    })
-})
-
-describe('Challenge13-04', () => {
-    test('Get-Clean-Data', () => {
-        let data = {
-            name: {
-                firstName: "Gordon",
-                lastName: "Ramsay"
-            },
-            favFood: "Salmon",
-            age: null,
-            phone: "5485188"
-        }
+const statistics = (obj) => {
+    // write your code here
+}
 
 
-        let res = {
-            firstName: "Gordon",
-            lastName: "Ramsay",
-            favFood: "Salmon",
-            phone: "5485188"
-        }
-
-        let data2 = {
-            name: {
-                firstName: "Sam",
-                lastName: "Fisher"
-            },
-            favFood: null,
-            age: 33,
-            phone: null
-        }
-
-
-        let res2 = {
-            firstName: "Sam",
-            lastName: "Fisher",
-            age: 33
-        }
-
-        expect(cleanData(data)).toEqual(res);
-        expect(cleanData(data2)).toEqual(res2);
-
-    })
-})
+module.exports = { objectCounter, stringReverse, statistics };
