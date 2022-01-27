@@ -1,9 +1,4 @@
-const {
-  objectCounter,
-  stringReverse,
-  statistics,
-  cleanData,
-} = require("../code-challenges/challenges-13.js");
+const { objectCounter, stringReverse, statistics, cleanData } = require('./Challenge13');
 
 describe('Challenge13-01', () => {
     test('object_Counter', () => {

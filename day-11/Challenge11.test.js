@@ -1,9 +1,4 @@
-const {
-  square,
-  fullName,
-  gradesAvg,
-  studentsResult,
-} = require("../code-challenges/challenges-11.js");
+const { square, fullName, gradesAvg, studentsResult } = require('./Challenge11');
 
 var students = [
     {

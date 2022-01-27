@@ -1,10 +1,4 @@
-const {
-  LastWord,
-  LastWord_2,
-  replaceWords,
-  arrToStr,
-  letterCounter,
-} = require("../code-challenges/challenges-14.js");
+const { LastWord, LastWord_2, replaceWords, arrToStr, letterCounter } = require('./Challenge14');
 
 describe('Challenge14-01', () => {
     test('LastWord', () => {
