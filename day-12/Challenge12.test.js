@@ -1,9 +1,4 @@
-const {
-  oddFiltration,
-  cvsFiltration,
-  vowelsFiltration,
-  skillComparison,
-} = require("../code-challenges/challenges-12.js");
+const { oddFiltration, cvsFiltration, vowelsFiltration, skillComparison } = require('./Challenge12');
 
 describe('Challenge12-01', () => {
     test('Get_odd_numbers', () => {

@@ -1,10 +1,10 @@
 const {
-  customerAndAge,
-  getEntries,
-  courses,
-  getInfo,
-  getStudents,
-} = require("../code-challenges/challenges-08.js");
+    customerAndAge,
+    getEntries,
+    courses,
+    getInfo,
+    getStudents,
+} = require("./Challenge08");
 
 describe("Challenge08-01", () => {
     test("Customer-and-average", () => {
@@ -45,7 +45,7 @@ describe("Challenge08-03", () => {
 
 describe("Challenge08-04", () => {
     test("Get-Student-Names-And-Courses", () => {
-        let test1 = ['Kalé', 'Alisha','Alphonso', 'Briana'];
+        let test1 = ['Kalé', 'Alisha', 'Alphonso', 'Briana'];
         let res1 = [
             { Student: "Kalé", course: "Python" },
             { Student: "Alisha", course: "Python" },
@@ -60,7 +60,7 @@ describe("Challenge08-04", () => {
         ];
 
 
-        expect(getStudents(test1)).toMatchObject(res1);
-        expect(getStudents(test2)).toMatchObject(res2);
+        expect(getStudents(test1)).toEqual(res1);
+        expect(getStudents(test2)).toEqual(res2);
     });
 });
