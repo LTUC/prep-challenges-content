@@ -1,8 +1,8 @@
 const {
-  recursionPattern,
-  filterLinks,
-  isPalindrome,
-  samePattern,
+    recursionPattern,
+    filterLinks,
+    isPalindrome,
+    samePattern,
 } = require("../code-challenges/challenges-17");
 
 describe("Challenge17-01", () => {

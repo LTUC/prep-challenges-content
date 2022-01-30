@@ -1,7 +1,7 @@
 const {
-  wordLength,
-  wordLetters,
-  targetIndex,
+    wordLength,
+    wordLetters,
+    targetIndex,
 } = require("../code-challenges/challenges-18");
 
 describe("Challenge18-01", () => {
