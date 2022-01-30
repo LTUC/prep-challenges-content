@@ -4,7 +4,7 @@ const {
     courses,
     getInfo,
     getStudents,
-} = require("./Challenge08");
+} = require("../code-challenges/challenges-08");
 
 describe("Challenge08-01", () => {
     test("Customer-and-average", () => {

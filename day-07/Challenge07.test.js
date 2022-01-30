@@ -1,6 +1,6 @@
 'use strict';
 
-const { objLat, cvFormatter, applicationsStatics, classesAvg } = require('./Challenge07');
+const { objLat, cvFormatter, applicationsStatics, classesAvg } = require("../code-challenges/challenges-07");
 
 const data = {
     SchoolName: "Al Farouk",

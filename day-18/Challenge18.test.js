@@ -2,7 +2,7 @@ const {
     wordLength,
     wordLetters,
     targetIndex,
-} = require("./Challenge18");
+} = require("../code-challenges/challenges-18");
 
 describe("Challenge18-01", () => {
     test("Get-Word-Length", () => {

@@ -1,11 +1,11 @@
-const { reverseString, detectFace, eveCharacter, chickenGradients } = require('./Challenge16');
+const { reverseString, detectFace, eveCharacter, chickenGradients } = require("../code-challenges/challenges-16");
 
 describe('Challenge16-01', () => {
     test('Reverse-String', () => {
         let inputString = "Bard's"
 
         expect(reverseString(inputString)).toStrictEqual("s'draB");
-        expect(reverseString(inputString).charAt(0)).toStrictEqual("a");
+        expect(reverseString(inputString).charAt(0)).toStrictEqual("s");
     })
 })
 
@@ -27,7 +27,7 @@ describe('Challenge16-03', () => {
     })
 })
 
-describe('Challenge16-04', () => {
+describe.skip('Challenge16-04', () => {
     test('Chicken Gradients', () => {
         let input = [["mushroom", "grilled chicken", "sauce"], ["Bread", "Potato", "baked chicken"], ["fried potato", "garlic sauce", "fried chicken"]];;
         let output = [["grilled chicken"], ["baked chicken"], ["fried chicken"]]

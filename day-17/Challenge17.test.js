@@ -3,7 +3,7 @@ const {
     filterLinks,
     isPalindrome,
     samePattern,
-} = require("./Challenge17");
+} = require("../code-challenges/challenges-17");
 
 describe("Challenge17-01", () => {
     test("Recursion-Pattern", () => {
