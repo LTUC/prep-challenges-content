@@ -24,7 +24,7 @@ const oddFiltration = (arr) => {
 
 // -------------------------------------------------------------------------------------------------------
 // Challenge 02:
-// Required:
+// optional:
 // 
 // Given data of candidates return the candidates CVs that have more than 4 years of experience 
 // and works as JS developer 
@@ -76,7 +76,7 @@ const cvsFiltration = (arr) => {
 
 // -------------------------------------------------------------------------------------------------------
 // Challenge 03:
-// Required:
+// optional:
 // 
 // Given an array of words filter out the words that contain one of the vowels (a, e, i, o, u)
 

@@ -28,7 +28,7 @@ const arrInc = (arr) => {
 
 // -------------------------------------------------------------------------------------------------------
 // Challenge 02:
-// Required:
+// optional: 
 
 //  Write a function that takes an array of decimals and round every value to the closest value 
 //  
@@ -44,7 +44,7 @@ const roundDecimals = (arr) => {
 
 // -------------------------------------------------------------------------------------------------------
 // Challenge 03:
-// Required:
+// optional:
 // 
 // An owner of a factory wants to give a 100$ bonus for production department employees who worked *More than* 8 hours
 // and 50$ for those who worked less, given their data increase their salary and return the data back again 

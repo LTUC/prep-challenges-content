@@ -62,7 +62,7 @@ function fullName(arr) {
 
 // -------------------------------------------------------------------------------------------------------
 // Challenge 03:
-// Required:
+// optional:
 
 // Given an array of objects use map to calculate the average of the grades 
 // and return an array of the objects with a new property called avg (that represent the average of the grades).
