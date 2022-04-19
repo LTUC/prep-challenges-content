@@ -40,25 +40,25 @@ const objLat = (obj) => {
 // let cvs = [
 //     {
 //         firstName: "Jason",
-//         LastName: "James",
+//         lastName: "James",
 //         yearsOfExperience: 20,
 //         tech: "JS"
 //     },
 //     {
 //         firstName: "Shira",
-//         LastName: null,
+//         lastName: null,
 //         yearsOfExperience: 5,
 //         tech: ".Net"
 //     },
 //     {
 //         firstName: "Dmitri",
-//         LastName: "Akkerman",
+//         lastName: "Akkerman",
 //         yearsOfExperience: 1,
 //         tech: "Python"
 //     },
 //     {
 //         firstName: "Isabella",
-//         LastName: null,
+//         lastName: null,
 //         yearsOfExperience: 7,
 //         tech: "Java"
 //     }
@@ -82,7 +82,7 @@ const objLat = (obj) => {
 
 //  Note that:
 //  1- Full name is first name + last name
-//  2- If one of the names is null dont add it to the full name
+//  2- If one of the names is null don`t add it to the full name
 
 const cvFormatter = (arr) => {
     // write your code here
@@ -97,10 +97,10 @@ const cvFormatter = (arr) => {
 //  using the array of objects you will be getting, return an object that has the following properties
 //
 // let result = {
-//     python_Devs: 0,
-//     javaScript_Devs: 0,
-//     dotNet_Devs: 0,
-//     java_Devs: 0,
+//     python_devs: 0,
+//     javaScript_devs: 0,
+//     dotNet_devs: 0,
+//     java_devs: 0,
 //     totalApplicants: 0,
 //     rejectedApplicants: 0,
 // }
@@ -126,12 +126,12 @@ const applicationsStatics = (arr) => {
 //  then change the avg value for the class
 //  Input:
 let data = {
-    SchoolName: "David Academy",
-    Capacity: 1000,
+    schoolName: "David Academy",
+    capacity: 1000,
     grades: [
         {
             grade: "First",
-            numberOFClasses: 3,
+            numberOfClasses: 3,
             classes: [
                 {
                     avg: 0,
@@ -158,7 +158,7 @@ let data = {
         },
         {
             grade: "Second",
-            numberOFClasses: 2,
+            numberOfClasses: 2,
             classes: [
                 {
                     avg: 0,
@@ -178,7 +178,7 @@ let data = {
         },
         {
             grade: "Third",
-            numberOFClasses: 2,
+            numberOfClasses: 2,
             classes: [
                 {
                     avg: 0,
@@ -198,7 +198,7 @@ let data = {
         },
         {
             grade: "Forth",
-            numberOFClasses: 4,
+            numberOfClasses: 4,
             classes: [
                 {
                     avg: 0,
