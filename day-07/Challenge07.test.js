@@ -9,12 +9,12 @@ const {
 } = require("../code-challenges/challenges-07");
 
 const data = {
-  SchoolName: "Al Farouk",
-  Capacity: 1000,
+  schoolName: "Al Farouk",
+  capacity: 1000,
   grades: [
     {
       grade: "First",
-      numberOFClasses: 3,
+      numberOfClasses: 3,
       classes: [
         {
           avg: 0,
@@ -37,7 +37,7 @@ const data = {
     },
     {
       grade: "Second",
-      numberOFClasses: 2,
+      numberOfClasses: 2,
       classes: [
         {
           avg: 0,
@@ -53,7 +53,7 @@ const data = {
     },
     {
       grade: "Third",
-      numberOFClasses: 2,
+      numberOfClasses: 2,
       classes: [
         {
           avg: 0,
@@ -69,7 +69,7 @@ const data = {
     },
     {
       grade: "Forth",
-      numberOFClasses: 4,
+      numberOfClasses: 4,
       classes: [
         {
           avg: 0,
@@ -247,19 +247,19 @@ describe("Challenge07", () => {
 describe("Challenge07", () => {
   test.skip("cv_filter", () => {
     let received = {
-      python_Devs: 1,
-      javaScript_Devs: 2,
-      dotNet_Devs: 1,
-      java_Devs: 1,
+      python_devs: 1,
+      javaScript_devs: 2,
+      dotNet_devs: 1,
+      java_devs: 1,
       totalApplicants: 5,
       rejectedApplicants: 1,
     };
 
     let received2 = {
-      python_Devs: 1,
-      javaScript_Devs: 1,
-      dotNet_Devs: 2,
-      java_Devs: 1,
+      python_devs: 1,
+      javaScript_devs: 1,
+      dotNet_devs: 2,
+      java_devs: 1,
       totalApplicants: 5,
       rejectedApplicants: 1,
     };
@@ -338,12 +338,12 @@ describe("Challenge07", () => {
 describe("Challenge07", () => {
   test.skip("classes_Avg", () => {
     let received = {
-      SchoolName: "Al Farouk",
-      Capacity: 1000,
+      schoolName: "Al Farouk",
+      capacity: 1000,
       grades: [
         {
           grade: "First",
-          numberOFClasses: 3,
+          numberOfClasses: 3,
           classes: [
             {
               avg: 60,
@@ -370,7 +370,7 @@ describe("Challenge07", () => {
         },
         {
           grade: "Second",
-          numberOFClasses: 2,
+          numberOfClasses: 2,
           classes: [
             {
               avg: 57,
@@ -390,7 +390,7 @@ describe("Challenge07", () => {
         },
         {
           grade: "Third",
-          numberOFClasses: 2,
+          numberOfClasses: 2,
           classes: [
             {
               avg: 45,
@@ -410,7 +410,7 @@ describe("Challenge07", () => {
         },
         {
           grade: "Forth",
-          numberOFClasses: 4,
+          numberOfClasses: 4,
           classes: [
             {
               avg: 64,
