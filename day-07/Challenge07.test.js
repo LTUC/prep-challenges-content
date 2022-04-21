@@ -247,7 +247,7 @@ describe("Challenge07", () => {
 describe("Challenge07", () => {
   test.skip("cv_filter", () => {
     let received = {
-      python_devs: 1,
+      python_devs: 0,
       javaScript_devs: 2,
       dotNet_devs: 1,
       java_devs: 1,
@@ -257,7 +257,7 @@ describe("Challenge07", () => {
 
     let received2 = {
       python_devs: 1,
-      javaScript_devs: 1,
+      javaScript_devs: 0,
       dotNet_devs: 2,
       java_devs: 1,
       totalApplicants: 5,
