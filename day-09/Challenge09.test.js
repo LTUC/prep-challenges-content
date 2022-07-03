@@ -6,7 +6,6 @@ const {
   employeesBonus,
   mostExpensive,
 } = require("../code-challenges/challenges-09");
-
 const data = [
   {
     name: "Robert",
@@ -99,26 +98,28 @@ describe("Challenge09", () => {
 });
 
 describe("Challenge09", () => {
-  test("Round-Decimals", () => {
+  test.skip("Round-Decimals", () => {
     expect(roundDecimals([5.4, 5.5, 6.7, 6.8])).toStrictEqual([5, 6, 7, 7]);
     expect(roundDecimals([6.1, 2.3, 5, 2.9])).toStrictEqual([6, 2, 5, 3]);
   });
 });
 
 describe("Challenge09", () => {
-  test("Employees-Bonus", () => {
+  test.skip("Employees-Bonus", () => {
     expect(employeesBonus(data)).toStrictEqual(res);
     expect(employeesBonus(data2)).toStrictEqual(res2);
   });
 });
 
-})
-
-describe.skip('Challenge09', () => {
-    test('Most-Expensive', () => {
-        expect(mostExpensive(200, [35, 15, 75, 180, 150, 50], [5, 150, 35, 120, 75, 50, 100])).toStrictEqual(200);
-        expect(mostExpensive(150, [35, 15, 75], [5, 150, 100])).toStrictEqual(135);
-    })
-
-})
-
+describe.skip("Challenge09", () => {
+  test.skip("Most-Expensive", () => {
+    expect(
+      mostExpensive(
+        200,
+        [35, 15, 75, 180, 150, 50],
+        [5, 150, 35, 120, 75, 50, 100]
+      )
+    ).toStrictEqual(200);
+    expect(mostExpensive(150, [35, 15, 75], [5, 150, 100])).toStrictEqual(135);
+  });
+});
