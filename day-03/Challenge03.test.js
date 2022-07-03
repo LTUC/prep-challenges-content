@@ -4,7 +4,7 @@ const {
   cvFormatter,
   targetArrayInGivenOrder,
   arrInc,
-} = require("./Challenge03");
+} = require("./../code-challenges/Challenge03");
 
 describe("Challenge03", () => {
   test("CV-Formatter", () => {
