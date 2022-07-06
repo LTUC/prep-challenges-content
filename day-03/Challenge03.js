@@ -102,10 +102,7 @@ const arrInc = (arr) => {
 // -------------------------------------------------------------------------------------------------------
 
 module.exports = {
-  objLat,
   cvFormatter,
-  applicationsStatics,
-  classesAvg,
   targetArrayInGivenOrder,
   arrInc,
 };
