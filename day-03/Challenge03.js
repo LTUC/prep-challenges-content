@@ -75,6 +75,9 @@ const cvFormatter = (arr) => {
 // Repeat the previous step until there are no elements to read in nums and index.
 // Input: nums = [0, 1, 2, 3, 4], index = [0, 4, 1, 2, 3]
 // Output: [0,4,1,3,2]
+
+// Input: nums = [1, 2, 3, 4, 0], index = [0, 1, 2, 3, 0]
+// Output: [1, 2, 3, 4, 1]
 const targetArrayInGivenOrder = (numsArr, indexArr) => {
   let targetArr;
   // write your code here
