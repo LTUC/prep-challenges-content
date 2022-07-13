@@ -119,11 +119,11 @@ describe("Challenge03", () => {
 describe("Challenge03", () => {
   test("targetArrayInGivenOrder", () => {
     expect(
-      targetArrayInGivenOrder([0, 1, 2, 3, 4], [0, 1, 2, 2, 1])
-    ).toStrictEqual([0, 4, 1, 3, 2]);
+      targetArrayInGivenOrder([0, 1, 2, 3, 4], [0, 4, 1, 2, 3])
+    ).toStrictEqual([0, 4, 1, 2, 3]);
     expect(
       targetArrayInGivenOrder([1, 2, 3, 4, 0], [0, 1, 2, 3, 0])
-    ).toStrictEqual([0, 1, 2, 3, 4]);
+    ).toStrictEqual([1, 2, 3, 4, 1]);
   });
 });
 
@@ -133,3 +133,4 @@ describe("Challenge03", () => {
     expect(arrInc([6, 0, -10, 33])).toStrictEqual([16, 10, 0, 43]);
   });
 });
+
