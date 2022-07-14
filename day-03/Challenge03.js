@@ -76,11 +76,12 @@ const cvFormatter = (arr) => {
 
 //Example 1
 // Input: nums = [0, 1, 2, 3, 4], index = [0, 4, 1, 2, 3]
-// Output: [0,4,1,3,2]
+// Output: [0,4,1,2,3]
 
 //Example 2
 // Input: nums = [1, 2, 3, 4, 0], index = [0, 1, 2, 3, 0]
 // Output: [1, 2, 3, 4, 1]
+
 const targetArrayInGivenOrder = (numsArr, indexArr) => {
   let targetArr;
   // write your code here
