@@ -20,7 +20,7 @@ describe("Challenge08-01", () => {
 });
 
 describe("Challenge08-02", () => {
-  test.skip("Get-recipe-key", () => {
+  test("Get-recipe-key", () => {
     let recipeInfo = {
       name: "pizza",
       ingredients: ["bread", "tomato", "chicken", "mayo"],
