@@ -38,7 +38,7 @@ const sumNums = (arr)=>{
 
 // -------------------------------------------------------------------------------------------------------
 //  Challenge 03:
-//  optional:
+//  Required:
 //
 //  Write a function that takes an array and returns the array reversed
 //  without using built-in functions
